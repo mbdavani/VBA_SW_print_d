@@ -1,7 +1,7 @@
 Attribute VB_Name = "Print_JX_ENG_HP4000_D1"
 Sub JX_ENG_HP4000win10D()                                                                       'Print D-Size to HP4000win10, landscape, monochrome
 Dim TroubleShoot As Boolean: TroubleShoot = False                                               'Set "Troubleshoot" to True if you want to trouble shoot
-Dim TBLShootTitle As String: TBLShootTitle = "USNR: Trouble Shoot HP4000 D-Size"
+Dim TBLShootTitle As String: TBLShootTitle = "Trouble Shoot HP4000 D-Size"
 Dim swApp As Object
 Dim PrinterPath As String: PrinterPath = "\\jx-vfs\JX-ENG-HP4000win10"                          'Intended printer
 Dim boolstatus As Boolean
